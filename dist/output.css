@@ -1510,12 +1510,16 @@ input:checked + .toggle-bg {
   --tw-bg-opacity: 0.5;
 }
 
-.bg-\[url\(\'\/img\/coffee-min\.jpg\'\)\] {
-  background-image: url('/img/coffee-min.jpg');
+.bg-\[url\(\'img\/coffee-min\.jpg\'\)\] {
+  background-image: url('img/coffee-min.jpg');
 }
 
 .bg-gradient-to-br {
   background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'img\/coffee\.jpg\'\)\] {
+  background-image: url('img/coffee.jpg');
 }
 
 .from-amber-400 {
